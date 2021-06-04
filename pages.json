@@ -1,0 +1,97 @@
+{
+	"pages": [
+		{ "path": "pages/home/home" },
+		{ "path": "pages/apikey/apikey" },
+		{ "path": "pages/apikey/create_apikey" },
+		{ "path": "pages/login/login" },
+		{ "path": "pages/login/register" },
+		{ "path": "pages/login/forget_pwd" },
+		{ "path": "pages/task/index" },
+		{ "path": "pages/task/edit" },
+		{ "path": "pages/task/detail" },
+		{ "path": "pages/task/selsymbol" },
+		{ "path": "pages/task/echannel" },
+		{ "path": "pages/task/replish" },
+		{ "path": "pages/user/user" },
+		{ "path": "pages/user/user_detail" },
+		{ "path": "pages/user/my_service" },
+		{ "path": "pages/user/fund_detail" },
+		{ "path": "pages/user/user_pay" },
+		{ "path": "pages/user/buy_service" },
+		{ "path": "pages/user/customer_service" },
+		{ "path": "pages/user/feed_back" },
+		{ "path": "pages/user/about_us" },
+		{ "path": "pages/home/help" },
+		{ "path": "pages/popularize/popularize" },
+		{ "path": "pages/popularize/team" },
+		{ "path": "pages/popularize/poster" },
+		{ "path": "pages/popularize/commission" },
+		{ "path": "pages/popularize/exchange" }, 
+		{ "path": "pages/popularize/extract_detail" },
+		{ "path": "pages/login/exemption_clause" },
+		{ "path": "pages/user/pay_record" },
+		{ "path": "pages/help/add_course" }, 
+		{ "path": "pages/help/use_help" }, 
+		{ "path": "pages/help/question" }, 
+		{ "path": "pages/help/task_explain" },
+		{ "path": "pages/quotations/index" }, 
+		{ "path": "pages/quotations/quotations_detail" },
+		{ "path": "pages/home/robot_detail" },
+		{ "path": "pages/profit/index" },
+		{ "path" : "pages/user/community" },
+		{ "path" : "pages/help/contract" },
+		{ "path" : "pages/user/revise_head" },
+		{ "path" : "pages/user/notice" },
+		{ "path" : "pages/user/notice_detail" }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Eslacoin",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom",
+		"scrollIndicator": "none",
+		"app-plus": {
+			"bounce": "none"
+		}
+	},
+	"tabBar": {
+		"color": "#ced3e9",
+		"selectedColor": "#3AE9DF",
+		"borderStyle": "#15253B",
+		"backgroundColor": "#15253B",
+		"iconWidth": "30px",
+		"spacing": "0",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icon/menu_sy_normal.png",
+				"selectedIconPath": "static/icon/menu_sy_selected.png",
+				"text": "首页"
+
+			}, {
+				"pagePath": "pages/quotations/index",
+				"iconPath": "static/icon/menu_hq_normal.png",
+				"selectedIconPath": "static/icon/menu_hq_selected.png",
+				"text": "行情"
+			},
+			{
+				"pagePath": "pages/task/index",
+				"iconPath": "static/icon/menu_jqr_normal.png",
+				"selectedIconPath": "./static/icon/menu_jqr_selected.png",
+				"text": "机器人"
+			},
+			{
+				"pagePath": "pages/profit/index",
+				"iconPath": "static/icon/menu_syi_normal.png",
+				"selectedIconPath": "static/icon/menu_syi_selected.png",
+				"text": "收益"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icon/menu_wd_normal.png",
+				"selectedIconPath": "static/icon/menu_wd_selected.png",
+				"text": "用户"
+			}
+		]
+	}
+}

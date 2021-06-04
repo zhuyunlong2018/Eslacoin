@@ -1,0 +1,346 @@
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-start {
+	justify-content: flex-start;
+}
+.flex-center {
+	justify-content: center;
+}
+.flex-end {
+	justify-content: flex-end;
+}
+.align-start {
+	align-items: flex-start;
+}
+.align-end {
+	align-items: flex-end;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.p-t10 {
+	padding-top: 10rpx;
+}
+.p-t20 {
+	padding-top: 20rpx;
+}
+.p-t30 {
+	padding-top: 30rpx;
+}
+.p-t40 {
+	padding-top: 40rpx;
+}
+.p-lr10 {
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+.p-lr14 {
+	padding-left: 14rpx;
+	padding-right: 14rpx;
+}
+.p-lr15 {
+	padding-left: 15rpx;
+	padding-right: 15rpx;
+}
+.p-lr20 {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+.p-lr28 {
+	padding-left: 28rpx;
+	padding-right: 28rpx;
+}
+.p-lr30 {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.p-lr40 {
+	padding-left: 40rpx;
+	padding-right: 40rpx;
+}
+.p-t10 {
+	padding-top: 10rpx;
+}
+.p-t20 {
+	padding-top: 20rpx;
+}
+.p-t30 {
+	padding-top: 30rpx;
+}
+.p-b10 {
+	padding-bottom: 10rpx;
+}
+.p-b20 {
+	padding-bottom: 20rpx;
+}
+.p-b30 {
+	padding-bottom: 30rpx;
+}
+.p-r10 {
+	padding-right: 10rpx;
+}
+.p-r20 {
+	padding-right: 20rpx;
+}
+.p-r30 {
+	padding-right: 30rpx;
+}
+.p-l10 {
+	padding-left: 10rpx;
+}
+.p-l20 {
+	padding-left: 20rpx;
+}
+.p-l30 {
+	padding-left: 30rpx;
+}
+.m-t10 {
+	margin-top: 10rpx;
+}
+.m-t20 {
+	margin-top: 20rpx;
+}
+.m-t30 {
+	margin-top: 30rpx;
+}
+.m-t40 {
+	margin-top: 40rpx;
+}
+.m-l30 {
+	margin-left: 30rpx;
+}
+.m-l60 {
+	margin-left: 60rpx;
+}
+.color-red {
+	color: red;
+}
+.color-win {
+	color: #e62222;
+}
+.color-white {
+	color: #ffffff;
+}
+.color-lose{
+	color: #039752;
+}
+.color-hui{
+	color: #6f87a4 !important;
+}
+.color-main {
+	color: #ced3e9;
+}
+.color-green {
+	color: #12c1bb;
+}
+.color-dark {
+	color: #6f87a4;
+}
+.color-light {
+	color: #ced3e9;
+}
+.color-danger{
+	color: #d14b64;
+}
+.color-orange{
+	color: #f59a4b;
+}
+.font-8 {
+	font-size: 16rpx;
+}
+.font-9 {
+	font-size: 18rpx;
+}
+.font-10 {
+	font-size: 20rpx;
+}
+.font-11 {
+	font-size: 22rpx;
+}
+.font-12 {
+	font-size: 24rpx;
+}
+.font-13 {
+	font-size: 26rpx;
+}
+.font-14 {
+	font-size: 28rpx;
+}
+.font-15 {
+	font-size: 30rpx;
+}
+.font-16 {
+	font-size: 32rpx;
+}
+.font-18 {
+	font-size: 36rpx;
+}
+.font-21 {
+	font-size: 42rpx;
+}
+.font-23 {
+	font-size: 46rpx;
+}
+.font-24 {
+	font-size: 48rpx;
+}
+.font-27 {
+	font-size: 54rpx;
+}
+.font-bold{
+	font-weight: bold;
+}
+.bold {
+	font-weight: 600;
+}
+.bold-8 {
+	font-weight: 800;
+}
+.up-pre {
+	position: relative;
+}
+.up-pab {
+	position: absolute;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-overflow {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.w100p {
+	width: 100%;
+}
+.w50p {
+	width: 50%;
+}
+.w33p {
+	width: 33%;
+}
+.w30p {
+	width: 30%;
+}
+
+.border-box {
+	box-sizing: border-box;
+}
+
+.color-blue {
+	color: #291ff5 !important;
+}
+
+.no-data {
+	color: #6f87a4;
+	text-align: center;
+	padding: 30rpx;
+	font-size: 24rpx;
+}
+.hide {
+	display: none;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+/* button 按钮边框 1px样式 */
+.btn-1 {
+	position: relative;
+}
+.btn-1::after {
+	content: ' ';
+	width: 200%;
+	height: 200%;
+	border: 1px solid #dbdee8;
+	transform: scale(0.5);
+	position: absolute;
+	box-sizing: border-box;
+	left: -50%;
+	top: -50%;
+	border-radius: 20rpx;
+}
+.btn-b-1 {
+	position: relative;
+}
+.btn-b-1::after {
+	position: absolute;
+	content: ' ';
+	width: 200%;
+	border-bottom: 1px solid #e0e3ee;
+	bottom: 0;
+	transform: scale(0.5);
+	left: -50%;
+}
+
+.btn-t-1 {
+	position: relative;
+}
+.btn-t-1::after {
+	position: absolute;
+	content: ' ';
+	width: 200%;
+	border-top: 1px solid #e0e3ee;
+	top: 0;
+	transform: scale(0.5);
+	left: -50%;
+}
+
+.btn-t-2 {
+	position: relative;
+}
+.btn-t-2::after {
+	position: absolute;
+	content: ' ';
+	width: 200%;
+	border-top: 1px solid #1a2c46;
+	top: 0;
+	transform: scale(0.5);
+	left: -50%;
+}
+.btn-t-2::before {
+	position: absolute;
+	content: ' ';
+	width: 200%;
+	border-top: 1px solid #030810;
+	top: 1px;
+	transform: scale(0.5);
+	left: -50%;
+}
+
+.unit {
+	font-size: 20rpx;
+	color: #686868;
+}
+
+/* 
+	导航栏图标样式
+ */
+.nav-icon-left {
+	width: 44rpx;
+	height: 44rpx;
+	padding-left: 10rpx;
+}
+.nav-icon-right {
+	width: 48rpx;
+	height: 48rpx;
+}

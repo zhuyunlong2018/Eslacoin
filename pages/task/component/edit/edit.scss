@@ -1,0 +1,80 @@
+
+.edit-view {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 694rpx;
+	height: 74rpx;
+	border-radius: 4rpx;
+	border: solid 1rpx #32445d;
+	margin-bottom: 30rpx;
+
+	&-left {
+		width: 25%;
+		padding-left: 12rpx;
+	}
+
+	&-center {
+		width: 50%;
+	}
+
+	&-right {
+		width: 25%;
+		padding-right: 10rpx;
+	}
+
+	&-active {
+		border: solid 1rpx #3efff8;
+	}
+
+	.small-input {
+		width: 240rpx;
+		height: 74rpx;
+		border-radius: 4rpx;
+		border: solid 1rpx #32445d;
+
+		&-active {
+			border: solid 1rpx #3efff8;
+		}
+	}
+
+	.circle {
+		width: 38rpx;
+		height: 38rpx;
+		border-radius: 50%;
+		background-color: #384867;
+	}
+
+	.circle-choose {
+		width: 27rpx;
+		height: 27rpx;
+		border-radius: 50%;
+		background-color: #5688fc;
+		border: 6rpx solid #384867;
+	}
+
+	.setfd {
+		width: 126rpx;
+		height: 44rpx;
+		background-color: rgba(38, 198, 220, 0);
+		border-radius: 6rpx;
+		font-size: 24rpx;
+		text-align: center;
+		line-height: 40rpx;
+		letter-spacing: 0rpx;
+		color: #12c1bb;
+		border: solid 2rpx #12c1bb;
+		margin: 0;
+		padding: 0;
+
+		&::after {
+			border: none;
+		}
+	}
+}
+		
+		.edit-view-back{
+			border: none;background-color: #232f46;
+		}	
+		

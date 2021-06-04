@@ -1,0 +1,200 @@
+/* 引入阿里巴巴矢量图 iconfont 字体图标库 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 2480001 */
+  src: url('https://at.alicdn.com/t/font_2480001_35mxvxt5n9i.woff2?t=1622194886540') format('woff2'),
+       url('https://at.alicdn.com/t/font_2480001_35mxvxt5n9i.woff?t=1622194886540') format('woff'),
+       url('https://at.alicdn.com/t/font_2480001_35mxvxt5n9i.ttf?t=1622194886540') format('truetype');
+}
+/* 引入本地字体图标 */
+/* @font-face {
+  font-family: 'bold'; 
+  src: url('~@/static/iconfont/PingFang_Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'regular'; 
+  src: url('~@/static/iconfont/PingFang_Regular.ttf') format('truetype');
+} */
+
+
+/* .regular, view, text {
+		font-family: 'regular';
+	}
+	.bold {
+		font-family: 'bold';
+	} */
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-refresh::before {
+	content: '\e606';
+}
+
+.icon-account::before {
+	content: '\e605';
+}
+
+.icon-back::before {
+	content: '\e603';
+}
+
+.iconsousuo:before {
+  content: "\e60f";
+}
+
+.icongengduo:before {
+  content: "\e60e";
+}
+
+.iconshichanghangqing:before {
+  content: "\e60d";
+}
+
+.iconzhanghuxinxi:before {
+  content: "\e60c";
+}
+
+.iconwenhao:before {
+  content: "\e60b";
+}
+
+.iconguanbianniu:before {
+  content: "\e607";
+}
+
+.icongou:before {
+  content: "\e613";
+}
+
+.iconshaixuan:before {
+  content: "\e614";
+}
+
+.iconchuangjian:before {
+  content: "\e617";
+}
+
+.iconsanjiaoxing:before {
+  content: "\e615";
+}
+
+.icongonggao:before {
+  content: "\e612";
+}
+
+.iconcelue:before {
+  content: "\e616";
+}
+
+.iconfenpei:before {
+  content: "\e618";
+}
+
+.iconhangqing:before {
+  content: "\e619";
+}
+
+.iconzidingyi:before {
+  content: "\e61a";
+}
+
+.iconlicai:before {
+  content: "\e61b";
+}
+
+.iconzhuanye:before {
+  content: "\e61d";
+}
+
+.iconfuzhi:before {
+  content: "\e625";
+}
+
+.iconxiangyou:before {
+  content: "\e61c";
+}
+
+.icontianjia:before {
+  content: "\e63c";
+}
+.icontishi:before {
+  content: "\e627";
+}
+.iconshangzhang:before {
+  content: "\e628";
+}
+.iconxiadie:before {
+  content: "\e629";
+}
+.icon_gou:before {
+  content: "\e62b";
+}
+.icon_delete:before {
+  content: "\e62a";
+}
+.iconjiantou:before {
+  content: "\e62d";
+}
+.iconqushi:before {
+  content: "\e630";
+}
+.iconyanjing:before {
+  content: "\e62c";
+}
+.iconyanjingguan:before {
+  content: "\e62f";
+}
+.iconyanhuangguan1:before {
+  content: "\e631";
+}
+.iconyanhuangguan2:before {
+  content: "\e632";
+}
+.iconyanhuangguan3:before {
+  content: "\e633";
+}
+.iconsearch:before {
+  content: "\e63f";
+}
+.iconmingxi:before {
+  content: "\e63d";
+}
+.iconchongbi:before {
+  content: "\e63e";
+}
+/* 我的菜单列表图标 */
+.iconapijieru:before {
+  content: "\e63b";
+}
+.iconyaoqingzhuangqian:before {
+  content: "\e63a";
+}
+.iconbangzhujiaocheng:before {
+  content: "\e636";
+}
+.iconguanfangshequn:before {
+  content: "\e637";
+}
+.iconguanfanggonggao:before {
+  content: "\e638";
+}
+.iconfankuijianyi:before {
+  content: "\e639";
+}
+.iconguanyuwomen:before {
+  content: "\e634";
+}
+.iconjianchagengxin:before {
+  content: "\e635";
+}
+.iconkline:before {
+  content: "\e642";
+}
+.iconxiangqing:before {
+  content: "\e643";
+}
